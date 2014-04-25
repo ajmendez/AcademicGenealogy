@@ -1,0 +1,148 @@
+strict digraph  {
+	graph [encoding="UTF-8",
+		forcelabel=True,
+		splines=true,
+		style="setlinewidth(2)"
+	];
+	node [fillcolor=gray,
+		style=filled
+	];
+	"Johann
+Christoph
+Wichmannshausen" -> "Christian
+August
+Hausen";
+	"Christian
+August
+Hausen" -> "Abraham
+Gotthelf
+Kästner";
+	"Christian
+August
+Hausen" -> "Carl Friedrich Gauss";
+	"Jožef Stefan" -> "Ludwig Boltzmann";
+	"Ludwig Boltzmann" -> "Philipp Frank";
+	"Tom Soifer" -> "James Larkin";
+	"Tom Soifer" -> "Tom Murphy";
+	"James Larkin" -> "Shelley Wright";
+	"Tom Murphy" -> "Eric Michelsen";
+	"Tom Murphy" -> "Nathan Johnson"	 [label="[2014]"];
+	"Philipp
+Franz
+von
+Walther" -> "Johannes
+Peter
+Müller";
+	"Johannes
+Peter
+Müller" -> "Hermann Helmholtz";
+	"Michael I. Pupin" -> "Robert A. Millikan";
+	"Robert A. Millikan" -> "Charlie Lauritsen";
+	"Marc Davis" -> "Alison Coil";
+	"Alison Coil" -> "Alexander Mendez"	 [label="[2014]"];
+	"Alison Coil" -> "Mojegan Azadi";
+	"Otto Mencke" -> "Johann
+Christoph
+Wichmannshausen";
+	"H. Richard Crane" -> "David Todd Wilkinson";
+	"David Todd Wilkinson" -> "Marc Davis";
+	"David Todd Wilkinson" -> "Peter Timbie";
+	"Joel Primack" -> "Kim Griest";
+	"Joel Primack" -> "Risa Wechslser";
+	"Joel Primack" -> "James Bullock";
+	"Kim Griest" -> "Agnieszka Cieplak";
+	"Kim Griest" -> "Jonathan Whitmore";
+	"Friedrich Leibniz" -> "Jakob Thomasius";
+	"Jakob Thomasius" -> "Otto Mencke";
+	"Nikolaus
+Boda
+Poda
+von
+Neuhaus" -> "Gabriel Gruber";
+	"Gabriel Gruber" -> "Georg
+Jurij
+Bartolomej
+Veha
+von
+Vega";
+	"Philipp Frank" -> "Peter
+Gabriel
+Bergmann";
+	"Friedrich Kohlrausch" -> "Walther Nernst";
+	"Walther Nernst" -> "Sir Francis Simon";
+	"Hermann Helmholtz" -> "Michael I. Pupin";
+	"Hermann Helmholtz" -> "Albert
+Abraham
+Michelson";
+	"Andreas
+von
+Ettingshausen" -> "Jožef Stefan";
+	"Subrahmanyan
+Chandrasekhar" -> "Guido Munch";
+	"Guido Munch" -> "James Gunn";
+	"Ignaz Lindner" -> "Andreas
+von
+Ettingshausen";
+	"Sidney M. Dancoff" -> "Sidney Drell";
+	"Sidney Drell" -> "Joel Primack";
+	"Wilhelm Eduart Weber" -> "Friedrich Kohlrausch";
+	"Jim Houck" -> "Tom Soifer";
+	"Michael Brown" -> "Adam Burgasser";
+	"Brian Keating" -> "Darcy Barron"	 [label="[2015]"];
+	"Brian Keating" -> "Dave Boegetter";
+	"Rainer Kurt Sachs" -> "Arthur Wolfe";
+	"Arthur Wolfe" -> "Marc Rafelski";
+	"Arthur Wolfe" -> "J. Xavier Prochaska";
+	"Abraham
+Gotthelf
+Kästner" -> "Johann
+Christian
+Erxleben";
+	"Carl Friedrich Gauss" -> "Christof Gudermann";
+	"Sir Francis Simon" -> "Kurt Mendelssohn";
+	"Neal Katz" -> "Dusan Keres";
+	"Raymond Bowers" -> "Jim Houck";
+	"George Fuller" -> "Chad Kishimoto";
+	"George Fuller" -> "Christel Sutterley";
+	"George Fuller" -> "John Cherry";
+	"George Fuller" -> "Evan Grohs"	 [label="[2015]"];
+	"Johann
+Salomo
+Christoph
+Schweigger" -> "Wilhelm Eduart Weber";
+	"Robert Oppenheimer" -> "Sidney M. Dancoff";
+	"Peter
+Gabriel
+Bergmann" -> "Rainer Kurt Sachs";
+	"Charlie Lauritsen" -> "H. Richard Crane";
+	"Charlie Lauritsen" -> "William A. Fowler";
+	"Georg
+Jurij
+Bartolomej
+Veha
+von
+Vega" -> "Ignaz Lindner";
+	"James Gunn" -> "Neal Katz";
+	"William A. Fowler" -> "Subrahmanyan
+Chandrasekhar";
+	"William A. Fowler" -> "George Fuller";
+	"Kurt Mendelssohn" -> "Raymond Bowers";
+	"Johann
+Christian
+Erxleben" -> "Christian von Weigel";
+	"Christof Gudermann" -> "Karl Weierstrass";
+	"J. Davy Kirkpatrick" -> "Adam Burgasser";
+	"Karl Weierstrass" -> "Carl Runge";
+	"Carl Runge" -> "Max Born";
+	"Max Born" -> "Robert Oppenheimer";
+	"Peter Timbie" -> "Brian Keating";
+	"Christian von Weigel" -> "Philipp
+Franz
+von
+Walther";
+	"Christian von Weigel" -> "Karl Rudolphi";
+	"Franz August Wolf" -> "Johann
+Salomo
+Christoph
+Schweigger";
+}
