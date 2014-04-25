@@ -96,13 +96,11 @@ PEOPLE = {
 
 
 def fmt(name):
-    '''name formatter function'''
+    '''name formatter function -- it failed on some of the utf names,
+    after specifying utf-8 as the encoding to pygraphviz all is good.'''
+    # Drop utf encoded names
     # fname = name.decode("utf-8").encode("ascii","ignore")
-    try:
-        fname = u'{}'.format(name)
-    except:
-        print name
-        raise
+    fname = u'{}'.format(name) # TODO: add dates / university
     if len(fname) > 20:
         fname = u'\n'.join(fname.split())
     return fname
@@ -111,10 +109,14 @@ def fmt(name):
 def makegraph():
     '''Make the graph'''
     
+    # this actually handles everything, but I wanted to add
+    # some nice formatting and the sort.
     # G = PG.AGraph(PEOPLE, encoding='UTF-8', directed=True,
     #               splines='true', style='setlinewidth(2)')
     G = PG.AGraph(encoding='UTF-8', directed=True, forcelabel=True,
+                  size="25.7,8.3!", resolution=100,
                   splines='true', style='setlinewidth(2)')
+                  
     G.node_attr['style'] = 'filled'
     G.node_attr['fillcolor'] = 'gray'
     for advisor,students in PEOPLE.iteritems():
@@ -131,10 +133,8 @@ def makegraph():
     # save the graph in dot format
     G.write('../tree.dot')
 
-    # pygraphviz renders graphs in neato by default, 
-    # so you need to specify dot as the layout engine
+    # use the dot program to structure the graph roughly vertically
     G.layout(prog='dot')
-    # G.layout()
     G.draw('../tree.png')
     
     return G
