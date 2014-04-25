@@ -34,7 +34,7 @@ PEOPLE = {
     'Friedrich Leibniz':['Jakob Thomasius'],
     
     'Peter Timbie':['Brian Keating'],
-    'Brian Keating':['Darcy Barron', 'Dave Boegetter'],
+    'Brian Keating':['Darcy Barron'],
     
     'Neal Katz':['Dusan Keres'],
     'James Gunn':['Neal Katz'],
@@ -126,6 +126,7 @@ def makegraph():
     
     
     G.get_edge('Alison Coil','Alexander Mendez').attr['label'] = '[2014]'
+    G.get_edge('Alison Coil','Mojegan Azadi').attr['label'] = '[2016]'
     G.get_edge('Brian Keating','Darcy Barron').attr['label'] = '[2015]'
     G.get_edge('George Fuller','Evan Grohs').attr['label'] = '[2015]'
     G.get_edge('Tom Murphy','Nathan Johnson').attr['label'] = '[2014]'

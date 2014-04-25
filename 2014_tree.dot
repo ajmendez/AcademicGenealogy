@@ -40,7 +40,7 @@ Müller" -> "Hermann Helmholtz";
 	"Robert A. Millikan" -> "Charlie Lauritsen";
 	"Marc Davis" -> "Alison Coil";
 	"Alison Coil" -> "Alexander Mendez"	 [label="[2014]"];
-	"Alison Coil" -> "Mojegan Azadi";
+	"Alison Coil" -> "Mojegan Azadi"	 [label="[2016]"];
 	"Otto Mencke" -> "Johann
 Christoph
 Wichmannshausen";
@@ -89,7 +89,6 @@ Ettingshausen";
 	"Jim Houck" -> "Tom Soifer";
 	"Michael Brown" -> "Adam Burgasser";
 	"Brian Keating" -> "Darcy Barron"	 [label="[2015]"];
-	"Brian Keating" -> "Dave Boegetter";
 	"Rainer Kurt Sachs" -> "Arthur Wolfe";
 	"Arthur Wolfe" -> "Marc Rafelski";
 	"Arthur Wolfe" -> "J. Xavier Prochaska";
