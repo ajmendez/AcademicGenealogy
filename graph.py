@@ -21,30 +21,142 @@ PEOPLE = {
     'Charlie Lauritsen':['H. Richard Crane', 'William A. Fowler'],
     'Robert A. Millikan':['Charlie Lauritsen'],
     'Michael I. Pupin':['Robert A. Millikan'],
-    'Hermann Helmholtz':['Michael I. Pupin', 'Albert Abraham Michelson'],
+    'Hermann Helmholtz':['Michael I. Pupin', 'Henry A Rowland'],
     u'Johannes Peter Müller':['Hermann Helmholtz'],
     'Philipp Franz von Walther':[u'Johannes Peter Müller'],
-    'Christian von Weigel':['Philipp Franz von Walther', 'Karl Rudolphi'],
+    # 'Christian von Weigel':['Philipp Franz von Walther', 'Karl Rudolphi'],
+    'Christian von Weigel':['Philipp Franz von Walther'],
     'Johann Christian Erxleben':['Christian von Weigel'],
-    u'Abraham Gotthelf Kästner':['Johann Christian Erxleben'],
+    u'Abraham Gotthelf Kästner':['Johann Christian Erxleben', 'Karl Christian von Langsdorf'],
     'Christian August Hausen':[u'Abraham Gotthelf Kästner', 'Carl Friedrich Gauss'],
     'Johann Christoph Wichmannshausen':['Christian August Hausen'],
+    # 'Johann Andreas Planer':['Christian August Hausen'],
+    # 'Rudolf Jakob Camerarius':['Johann Andreas Planer'],
+    # 'Elias Rudolph Camerarius':['Rudolf Jakob Camerarius'],
+    # 'Georg Balthasar Metzger':['Elias Rudolph Camerarius'],
     'Otto Mencke':['Johann Christoph Wichmannshausen'],
     'Jakob Thomasius':['Otto Mencke'],
     'Friedrich Leibniz':['Jakob Thomasius'],
     
+    
+    
     'Peter Timbie':['Brian Keating'],
-    'Brian Keating':['Darcy Barron'],
+    'Brian Keating':['Darcy Barron', 'Stephanie Moyerman', 'Nathan Miller',
+                     'Evan Bierman'],
+    
+    
+    
     
     'Neal Katz':['Dusan Keres'],
-    'James Gunn':['Neal Katz'],
+    'James Gunn':['Neal Katz','Claire Nicole Lackner','Charlie Conroy','Edmund Bertschinger'],
     'Guido Munch':['James Gunn'],
-    'Subrahmanyan Chandrasekhar':['Guido Munch'],
-    'William A. Fowler':['Subrahmanyan Chandrasekhar','George Fuller'],
+    'Subrahmanyan Chandrasekhar':['Guido Munch','Jeremiah Ostriker'],
+    'Arthur Stanley Eddington':['Subrahmanyan Chandrasekhar'],
+    # 'Ralph H. Fowler':['Subrahmanyan Chandrasekhar'],
+    'Ralph H. Fowler':['Paul Adrien Maurice Dirac','Subrahmanyan Chandrasekhar'],
+    # 'Archibald V. Hill':['Ralph H. Fowler'],
+    # 'Walter Morley Fletcher':['Archibald V. Hill'],
+    # 'John Newport Langley':['Walter Morley Fletcher'],
+    # 'Micheal Foster':['John Newport Langley'],
+    # 'William Sharpey':['Micheal Foster'],
+    # 'Thomas Henry Huxley':['Micheal Foster'],
     
-    'George Fuller':['Chad Kishimoto', 'Christel Sutterley', 'John Cherry', 'Evan Grohs'],
+    # 'Uros Seljak':['Nikhil Padmanabhan','Rachel Mandelbaum'],
+    # 'Edmund Bertschinger':['Uros Seljak'],
+    # 'Jeremiah Ostriker':['Edmund Bertschinger','Michael Blanton','Edmund Bertschinger'],
     
-
+    'George Fuller':['Chad Kishimoto', 'Christel Sutterley', 'John Cherry', 
+                     'G. Wendell Misch', 'rohs'],
+    'William A. Fowler':['George Fuller'],
+    
+    
+    
+    # 1972: Bowen University of Arizona http://www.linkedin.com/pub/richard-rothschild/41/1b5/aa4
+    'Richard hild':['Elizabeth Rivers','Eve Armstrong','Slawomir Suchy',
+                          'Thomas Thompson'],
+    # 1954 University of Chicago
+    # THE IONIZATION ENERGY LOSS OF MESONS IN A SODIUM-IODIDE SCITION CRYSTAL
+    'Theodore Bowen':['Richard Rothschild'],
+    
+    
+    
+    # 1982, University of London David R. Tytler
+    'David Tytler':['Aaron Day',"John O'Meara",'David Kirkman','Scott Burles'],
+    # ? Alexander Boksenberg, Electron collision processes in dissociated molecular gases , , (1961)
+    'Alexander Boksenberg':['David Tytler'],
+    
+    
+    
+    
+    'Frank Shu':['Wing Kit Lee'],
+    'Chia-Chiao Lin':['Frank Shu'],
+    'Theodore von Karman':['Chia-Chiao Lin'],
+    'Ludwig Prandtl':['Theodore von Karman'],
+    u'August Otto Föppl':['Ludwig Prandtl'],
+    # 'Christian Otto Mohr':['August Otto Föppl'],
+    'Felix Christian Klein':[u'August Otto Föppl', 'Arnold Sommerfeld'],
+    u'Julius Plücker':['Felix Christian Klein'],
+    'Christian Ludwig Gerling':[u'Julius Plücker'],
+    
+    
+    
+    
+    # 'Rudolf Peierls':['Fred Hoyle'],
+    # 'Richard Eden':['Rudolf Peierls'],
+    # 'Werner Heisenberg':['Richard Eden'],
+    # 'Arnold Sommerfeld':['Werner Heisenberg'],
+    
+    # 'Paul Adrien Maurice Dirac':['Fred Hoyle'],
+    # 'Maurice Henry Lecorney Pryce':['Fred Hoyle'],
+    # 'Wolfgang Ernst Pauli':['Maurice Henry Lecorney Pryce'],
+    # 'Arnold Sommerfeld':['Wolfgang Ernst Pauli'],
+    
+    # 'John von Neumann':['Maurice Henry Lecorney Pryce'],
+    # 'Lipot Fejer':['John von Neumann'],
+    # 'Hermann Schwarz':['Lipot Fejer'],
+    
+    
+    
+    # The observation of directly produced electrons and positrons in hadron-hadron collisions Columbia University, Physics Dept., 1975
+    'Hans P. Paar':['David Boettger'],
+    'Leon M. Lederman':['Hans P. Paar'],
+    'Eugene T. Booth':['Leon M. Lederman'],
+    'Ellis Howard Dixon':['Eugene T. Booth'],
+    'Charles Elwood Mendenhall':['Ellis Howard Dixon'],
+    'Harry Fielding Reid':['Charles Elwood Mendenhall'],
+    'Henry A Rowland':['Harry Fielding Reid'],
+    # # above
+    # u'Johannes Peter Müller':['Hermann von Helmholtz'],
+    # 'Karl Mayer':[u'Johannes Peter Müller'],
+    # 'Wilhelm Gottfried Ploucquet':['Karl Mayer'],
+    # 'Ferdinand Christoph Oetinger':['Wilhelm Gottfried Ploucquet'],
+    # 'Michael Alberti':['Ferdinand Christoph Oetinger'],
+    # 'Georg Ernst Stahl':['Michael Alberti'],
+    # 'Gilberto Bernardini':['Leon M. Lederman'],  ? 
+     # Ph.D. from Columbia Universit
+    # Leon Lederman
+    
+    
+    # JR Wilson? 
+    'Michael Norman':['Stephen Skory','David Collins'],
+    # 1952 Berkeley Roland	H.	Good,	Jr http://physics.berkeley.edu/Annual_NEWSLETTER_PDFs/2007_Fall.pdf
+    'James R. Wilson':['Michael Norman'],
+    # penn state 
+    # PhD, University of Michigan 1951 Advisor:
+    # Roland Hamilton Good Jr., ON THE THEORY OF FORBIDDEN BETA-TRANSITIONS , , 86 (1951)
+    'Roland Hamilton Good':['James R. Wilson'],
+    'George Uhlenbeck':['Roland Hamilton Good'],
+    'Paul Ehrenfest':['George Uhlenbeck'],
+    
+    
+    
+    
+    
+    #Patrick Henry Diamond, THEORY OF PHASE SPACE DENSITY GRANULATION IN MAGNETOPLASMA , , 0 (1979) 
+    'Pat Diamond':['Lei Zhao','Novimir Pablant','Yusuke Kosuga',],
+    
+    
+    
     
     'Kim Griest':['Agnieszka Cieplak','Jonathan Whitmore'],
     'Joel Primack':['Kim Griest', 'Risa Wechslser', 'James Bullock'],
@@ -56,7 +168,9 @@ PEOPLE = {
     'Carl Runge':['Max Born'],
     'Karl Weierstrass':['Carl Runge'],
     'Christof Gudermann':['Karl Weierstrass'],
-    'Carl Friedrich Gauss':['Christof Gudermann'],
+    'Carl Friedrich Gauss':['Christof Gudermann','Christian Ludwig Gerling'],
+    
+    
     
     'James Larkin':['Shelley Wright'],
     'Tom Murphy':['Eric Michelsen', 'Nathan Johnson'],
@@ -67,24 +181,43 @@ PEOPLE = {
     'Sir Francis Simon':['Kurt Mendelssohn'],
     'Walther Nernst':['Sir Francis Simon'],
     'Friedrich Kohlrausch':['Walther Nernst'],
-    'Wilhelm Eduart Weber':['Friedrich Kohlrausch'],
+    'Wilhelm Eduart Weber':['Friedrich Kohlrausch', 'Hermann Schwarz'],
     'Johann Salomo Christoph Schweigger':['Wilhelm Eduart Weber'],
-    'Franz August Wolf':['Johann Salomo Christoph Schweigger'],
+    # 'Franz August Wolf':['Johann Salomo Christoph Schweigger'],
+    'Karl Christian von Langsdorf':['Johann Salomo Christoph Schweigger'],
     
+    
+    
+    'Adam Burgasser':['Daniella Bardalez-Gagliuffi'],
     'Michael Brown':['Adam Burgasser'],
     'J. Davy Kirkpatrick':['Adam Burgasser'],
+    #Donald Wans McCarthy Jr., AN INFRARED SPATIAL INTERFEROMETER: DESIGN AND DISCOVERIES , , 160 (1976)
+    'Donald W. McCarthy Jr':['J. Davy Kirkpatrick'],
+    # Rice University in 1959
+    'Frank J. Low':['Donald W. McCarthy Jr'],
+    #Harold E. Rorschach Jr., RESISTANCE MINIMA IN METALS AT LOW TEMPERATURES , , (1952)
+    'Harold E. Rorschach':['Frank J. Low'],
+    # ? William Vermillion Houston
+    # ? Cole / Michelson / Millikan
+    'William Vermillion Houston':['Harold E. Rorschach'],
+    'Alfred D. Cole':['William Vermillion Houston'],
+    
+    
+    
     
     'Arthur Wolfe':['Marc Rafelski','J. Xavier Prochaska'],
     'Rainer Kurt Sachs':['Arthur Wolfe'],
     'Peter Gabriel Bergmann':['Rainer Kurt Sachs'],
     'Philipp Frank':['Peter Gabriel Bergmann'],
-    'Ludwig Boltzmann':['Philipp Frank'],
+    'Ludwig Boltzmann':['Philipp Frank', 'Paul Ehrenfest'],
     u'Jožef Stefan':['Ludwig Boltzmann'],
     'Andreas von Ettingshausen':[u'Jožef Stefan'],
     'Ignaz Lindner':['Andreas von Ettingshausen'],
     'Georg Jurij Bartolomej Veha von Vega':['Ignaz Lindner'],
     'Gabriel Gruber':['Georg Jurij Bartolomej Veha von Vega'],
     'Nikolaus Boda Poda von Neuhaus':['Gabriel Gruber'],
+
+    
 } 
 
 
@@ -114,8 +247,8 @@ def makegraph():
     # G = PG.AGraph(PEOPLE, encoding='UTF-8', directed=True,
     #               splines='true', style='setlinewidth(2)')
     G = PG.AGraph(encoding='UTF-8', directed=True, forcelabel=True,
-                  size="25.7,8.3!", resolution=100,
-                  splines='true', style='setlinewidth(2)')
+                  size="25.7,8.3!", resolution=400,
+                  splines='true', style='setlinewidth(4)')
                   
     G.node_attr['style'] = 'filled'
     G.node_attr['fillcolor'] = 'gray'
@@ -125,7 +258,7 @@ def makegraph():
             G.add_edge(advisor, student)
     
     
-    G.get_edge('Alison Coil','Alexander Mendez').attr['label'] = '[2014]'
+    G.get_edge('Adam Burgasser','Daniella\nBardalez-Gagliuffi').attr['label'] = '[2015]'
     G.get_edge('Alison Coil','Mojegan Azadi').attr['label'] = '[2016]'
     G.get_edge('Brian Keating','Darcy Barron').attr['label'] = '[2015]'
     G.get_edge('George Fuller','Evan Grohs').attr['label'] = '[2015]'
@@ -136,6 +269,9 @@ def makegraph():
 
     # use the dot program to structure the graph roughly vertically
     G.layout(prog='dot')
+    # G.graph_attr.update(dpi=400)
+    # G.graph_attr.update(size="12,12")
+    # G.graph_attr.update(font_size=14)
     G.draw('../tree.png')
     
     return G
