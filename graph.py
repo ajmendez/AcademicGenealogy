@@ -66,13 +66,13 @@ PEOPLE = {
     # 'Jeremiah Ostriker':['Edmund Bertschinger','Michael Blanton','Edmund Bertschinger'],
     
     'George Fuller':['Chad Kishimoto', 'Christel Sutterley', 'John Cherry', 
-                     'G. Wendell Misch', 'rohs'],
+                     'G. Wendell Misch', 'Evan Grohs'],
     'William A. Fowler':['George Fuller'],
     
     
     
     # 1972: Bowen University of Arizona http://www.linkedin.com/pub/richard-rothschild/41/1b5/aa4
-    'Richard hild':['Elizabeth Rivers','Eve Armstrong','Slawomir Suchy',
+    'Richard Rothschild':['Elizabeth Rivers','Eve Armstrong','Slawomir Suchy',
                           'Thomas Thompson'],
     # 1954 University of Chicago
     # THE IONIZATION ENERGY LOSS OF MESONS IN A SODIUM-IODIDE SCITION CRYSTAL
