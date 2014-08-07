@@ -21,7 +21,7 @@ PEOPLE = {
     'Charlie Lauritsen':['H. Richard Crane', 'William A. Fowler'],
     'Robert A. Millikan':['Charlie Lauritsen'],
     'Michael I. Pupin':['Robert A. Millikan'],
-    'Hermann Helmholtz':['Michael I. Pupin', 'Henry A Rowland'],
+    'Hermann Helmholtz':['Michael I. Pupin', 'Henry A Rowland','Albert Michelson'],
     u'Johannes Peter Müller':['Hermann Helmholtz'],
     'Philipp Franz von Walther':[u'Johannes Peter Müller'],
     # 'Christian von Weigel':['Philipp Franz von Walther', 'Karl Rudolphi'],
@@ -72,6 +72,7 @@ PEOPLE = {
     
     
     # 1972: Bowen University of Arizona http://www.linkedin.com/pub/richard-rothschild/41/1b5/aa4
+    # http://ucsd.worldcat.org/title/pion-proton-elastic-scattering-at-180-from-60-to-160-gevc/oclc/27367351&referer=brief_results
     'Richard Rothschild':['Elizabeth Rivers','Eve Armstrong','Slawomir Suchy',
                           'Thomas Thompson'],
     # 1954 University of Chicago
@@ -146,15 +147,20 @@ PEOPLE = {
     # Roland Hamilton Good Jr., ON THE THEORY OF FORBIDDEN BETA-TRANSITIONS , , 86 (1951)
     'Roland Hamilton Good':['James R. Wilson'],
     'George Uhlenbeck':['Roland Hamilton Good'],
-    'Paul Ehrenfest':['George Uhlenbeck'],
-    
-    
-    
+    'Paul Ehrenfest':['George Uhlenbeck','Samuel Abraham Goudsmit'],
     
     
     #Patrick Henry Diamond, THEORY OF PHASE SPACE DENSITY GRANULATION IN MAGNETOPLASMA , , 0 (1979) 
-    'Pat Diamond':['Lei Zhao','Novimir Pablant','Yusuke Kosuga',],
-    
+    # http://library.mit.edu/F/3HKTRNKXACAR3DXMICE6FXLPYGED86SQ9VB4PLMKK5N8NYBJ3S-22025?func=find-b&amp=&amp=&find_code=OCA&request=32787608
+    'Patrick Diamond':['Lei Zhao','Novimir Pablant','Yusuke Kosuga',],
+    # http://www.worldcat.org/title/theory-of-phase-space-density-granulation-in-magnetoplasma/oclc/7060963?referer=di&ht=edition
+    'Thomas Dupree':['Patrick Diamond'],
+    #Thomas Henderson Dupree, SOLUTIONS OF THE WAVE EQUATION IN A LATTICE OF SPHERICAL SCATTERERS , , 0 (1960)
+    # http://library.mit.edu/F/3HKTRNKXACAR3DXMICE6FXLPYGED86SQ9VB4PLMKK5N8NYBJ3S-22025?func=find-b&amp=&amp=&find_code=OCA&request=32787608
+    'Philip Morse':['Thomas Dupree'],
+    'Karl Compton':['Philip Morse'],
+    'Owen Richardson':['Karl Compton'],
+    # 'Joseph Thomson':['Owen Richardson'],
     
     
     
@@ -190,6 +196,15 @@ PEOPLE = {
     
     'Adam Burgasser':['Daniella Bardalez-Gagliuffi'],
     'Michael Brown':['Adam Burgasser'],
+    'Hyron Spinrad':['Michael Brown'],
+    'Imke de Pater':['Michael Brown'],
+    'Harry van der Laan':['Imke de Pater'],
+    'Martin Ryle':['Harry van der Laan'],
+    'John Ratcliffe':['Martin Ryle'],
+    'Edward Appleton':['John Ratcliffe'],
+    'Ernest Rutherford':['Edward Appleton'],
+    'Joseph Thomson':['Edward Appleton','Owen Richardson'],
+    
     'J. Davy Kirkpatrick':['Adam Burgasser'],
     #Donald Wans McCarthy Jr., AN INFRARED SPATIAL INTERFEROMETER: DESIGN AND DISCOVERIES , , 160 (1976)
     'Donald W. McCarthy Jr':['J. Davy Kirkpatrick'],
@@ -216,8 +231,29 @@ PEOPLE = {
     'Georg Jurij Bartolomej Veha von Vega':['Ignaz Lindner'],
     'Gabriel Gruber':['Georg Jurij Bartolomej Veha von Vega'],
     'Nikolaus Boda Poda von Neuhaus':['Gabriel Gruber'],
-
     
+    
+    'Alberto Bolatto':['Karin Sandstrom'],
+    #http://academictree.org/physics/tree.php?pid=36896
+    'James Jackson':['Alberto Bolatto'],
+    'Alan Barrett':['James Jackson'],
+    'Charles Townes':['Alan Barrett'],
+    'William Smythe':['Charles Townes'],
+    'Henry Gale':['William Smythe'],
+    'Albert Michelson':['Henry Gale'],
+    # 'Hermann Helmholtz':['Albert Abraham Michelson'],
+    
+    
+    
+    'Andrea Ghez':['Quinn Konopacky'],
+    #93 Caltech
+    'Gerald Neugebauer':['Andrea Ghez', 'David Hogg'], 
+        # 1960 Caltech photoproduction of negative and positive pions from deuterium.
+        # http://phdtree.org/scholar/neugebauer-gerry/
+    'Robert Walker':['Gerald Neugebauer'],
+    'Boyce Dawkins McDaniel':['Robert Walker'],
+    'Robert Fox Bacher':['Boyce Dawkins McDaniel'],
+    'Samuel Abraham Goudsmit':['Robert Fox Bacher'],
 } 
 
 
